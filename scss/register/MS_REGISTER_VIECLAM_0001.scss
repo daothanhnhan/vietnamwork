@@ -1,0 +1,220 @@
+.gb-tuyendung-vnwork{
+  .gb-tuyendung-vnwork-title{
+    background-image: radial-gradient(circle at 50% 0,#2DADE4,#0D47A1);
+    padding: 50px 0;
+    height: 500px;
+    .user-account{
+      a{
+        color: #fff;
+        &.btn-outline{
+          padding-left: 35px;
+          padding-right: 35px;
+          border-radius: 4px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+    .gb-tuyendung-vnwork-text{
+      margin: 30px 0;
+      h1{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        text-transform: capitalize;
+        color: #fff;
+      }
+      h4{
+        text-align: center;
+        font-size: 21px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }
+  }
+  .gb-tuyendung-vnwork-characteristic{
+    margin-top: -130px;
+    .gb-tuyendung-vnwork-characteristic-item{
+      border-radius: 30px;
+      box-shadow: 0 8px 20px 0 rgba(0,0,0,.2);
+      background-color: #fff;
+      border: solid 1px #dae0e5;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+      height: 270px;
+      padding: 0 11px;
+      .gb-tuyendung-vnwork-characteristic-item-img{
+        height: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          max-width: 140px;
+          margin: 0 auto;
+          padding-left: 0;
+          padding-right: 0;
+          margin-top: 35px;
+        }
+      }
+      h2{
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: center;
+        color: #4a4a4a;
+        text-transform: uppercase;
+        margin-top: 22px;
+        margin-bottom: 5px;
+      }
+      p{
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    }
+  }
+
+  .gb-luachondichvuphuhop{
+    margin: 50px 0;
+    h2{
+      margin-bottom: 25px;
+      font-size: 32px;
+      font-weight: 300;
+      text-align: center;
+    }
+    .nav-tabs {
+      border-bottom: 2px solid #DDD;
+    }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+      border-width: 0;
+    }
+    .nav-tabs > li > a {
+      border: none;
+      color: #666;
+      font-size: 14px;
+      padding: 15px;
+    }
+    .nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+      border: none;
+      color: #ffa21a !important;
+      background: transparent;
+    }
+    .nav-tabs > li > a::after {
+      content: "";
+      background: #ffa21a;
+      height: 2px;
+      position: absolute;
+      width: 100%;
+      left: 0px;
+      bottom: -1px;
+      transition: all 250ms ease 0s;
+      transform: scale(0);
+    }
+    .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after {
+      transform: scale(1);
+    }
+    .tab-nav > li > a::after {
+      background: #ffa21a none repeat scroll 0% 0%;
+      color: #fff;
+    }
+    .tab-pane {
+      padding: 15px 0;
+    }
+    .tab-content{
+      padding:20px
+    }
+    .card {
+      background: #FFF none repeat scroll 0% 0%;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+      margin-bottom: 30px;
+    }
+  }
+  .gb-discount-percent{
+    display:  inline-block;
+    background: #ff9e3c;
+    padding: 8px 30px;
+    color: #fff;
+  }
+  .gb-price-vnwork{
+    margin-top: 15px;
+    .container-tab__info-price{
+      font-size: 48px;
+      font-weight: 700;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #232323;
+    }
+    .container-tab__info-discount{
+      font-size: 16px;
+      font-weight: 400;
+      color: #c9c9c9;
+      text-decoration: line-through;
+    }
+  }
+  .gb-content-tuyendung-vnwork{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #888;
+  }
+  .gb-btn-tuyendung-vnwork{
+    text-align:  right;
+    a{
+      display: inline-block;
+      color: #f7941d;
+      background: #fff;
+      border: 1px solid #f7941d;
+      padding: 10px 20px;
+      font-size: 16px;
+      line-height: 1.33;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+  }
+  .gb-dambaohailong-vnwork{
+    background: #fff;
+    padding:  50px 0;
+    h2{
+      margin-bottom: 25px;
+      font-size: 32px;
+      font-weight: 300;
+      text-align: center;
+    }
+    p{
+      font-size: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      color: #888;
+      text-align:  center;
+    }
+    img{
+      margin:  0 auto;
+    }
+  }
+  .gb-cacdoanhnghiephangdau{
+    margin-top: 50px;
+    h2{
+      margin-bottom: 25px;
+      font-size: 32px;
+      font-weight: 300;
+      text-align: center;
+    }
+    p{
+      font-size: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      color: #888;
+      text-align:  center;
+    }
+    img{
+      margin:  0 auto;
+    }
+  }
+}

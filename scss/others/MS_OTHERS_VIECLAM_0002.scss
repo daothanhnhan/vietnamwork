@@ -1,0 +1,96 @@
+.gb-wowcv-vnwork{
+    .gb-wowcv-vnwork-dark-box{
+        background: url("../images/header_banner_v2.jpg") no-repeat center top;
+        height: 578px;
+        background-size: cover;
+        text-align: center;
+        .banner-title{
+            text-align: center;
+            line-height: 63px;
+            font-size: 50px;
+            color: #fff;
+            font-weight: 700;
+            padding-top: 210px;
+            margin-top: 0;
+        }
+        .cta-building{
+            font-size: 24px;
+            background-color: #f2b53e;
+            color: #fff;
+            padding: 15px 0px;
+            margin-top: 80px;
+            font-weight: 600;
+            transition: all 0.5s;
+            border: 2px solid #fff;
+            text-align: center;
+            width: 240px;
+            text-transform: none;
+        }
+    }
+    .rec-header{
+        height: 78px;
+        background-color: #00b9f2;
+        h2{
+            margin-top: 0px;
+            text-align: center;
+            color: #fff;
+            transform: translateY(25%);
+            font-size: 33px;
+            font-weight: 300;
+            text-transform: capitalize;
+        }
+    }
+    .gb-wowcv-vnwork-template{
+        margin-top: 50px;
+        .owl-item{
+            padding: 30px;
+            opacity: 0.5;
+            &.active.center{
+                padding:  0;
+                opacity: 1;
+                .gb-wowcv-vnwork-template-btn{
+                    display:  block;
+                }
+            }
+            .gb-wowcv-vnwork-template-btn{
+                text-align:  center;
+                margin-top:  20px;
+                display:  none;
+                a{
+                    display:  inline-block;
+                    color: #fff;
+                    background-color: #f7941d;
+                    border-color: #f28809;
+                    font-weight: 500;
+                    outline: 0;
+                    z-index: 99;
+                    padding: 10px 30px;
+                }
+            }
+        }
+    }
+    .gb-taoantuongvoinhatuydung-vnwork{
+        background:  #fff;
+        padding: 50px 0;
+        h2{
+            font-weight: 300;
+            text-align: center;
+            color: black;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        .gb-taoantuongvoinhatuydung-vnwork-item{
+            margin-top: 50px;
+            img{
+                height: 100px;
+                width: auto !important;
+                margin: 0 auto;
+            }
+            p{
+                font-size: 16px;
+                padding-top: 10px;
+                text-align: center;
+            }
+        }
+    }
+}

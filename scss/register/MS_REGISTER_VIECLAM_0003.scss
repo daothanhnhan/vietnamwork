@@ -1,0 +1,37 @@
+.gb-dangnhap-vnwork{
+  margin: 50px 0;
+  .gb-dangnhap-vnwork-form{
+    background: #fff;
+    padding: 50px 30px;
+    h1{
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      color: #000;
+      text-align: center;
+    }
+    .full-width{
+      width: 100%;
+      text-align: center;
+      .img-container{
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+      }
+    }
+    p{
+      display: block;
+      font-size: 14px;
+      color: #000;
+      line-height: 26px;
+      text-align: center;
+      margin: 15px 0 ;
+    }
+    label{
+      display: block;
+      font-size: 14px;
+      color: #000;
+      line-height: 26px;
+    }
+  }
+}

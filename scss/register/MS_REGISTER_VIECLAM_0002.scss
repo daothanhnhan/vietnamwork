@@ -1,0 +1,99 @@
+.gb-banggiadangtin-vnwork{
+  h1{
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  .gb-banggiadangtin-vnwork-dangtuyedung{
+    .gb-banggiadangtin-vnwork-title{
+      background: #e5f0f4;
+      border-bottom: 1px solid #aecddb;
+      padding: 15px 30px;
+    }
+    .gb-banggiadangtin-vnwork-dangtueyncoban{
+      h5{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+      .gb-banggiadangtin-vnwork-dangtueyncoban-content{
+        p{
+          font-size: 14px;
+          color: #7a7a7a;
+          line-height: 24px;
+        }
+        ul{
+          li{
+            font-size: 14px;
+            color: #7a7a7a;
+            line-height: 24px;
+          }
+        }
+      }
+      .gb-banggiadangtin-vnwork-dangtueyncoban-chuongtrinhgiamgia{
+        .discount-label{
+
+        }
+        table{
+          width: 100%;
+        }
+      }
+      .gb-banggiadangtin-vnwork-price{
+        font-weight: 600;
+      }
+      .gb-banggiadangtin-vnwork-btn{
+        .btn-themmoi{
+          background:  transparent;
+          border: 1px solid #f7941d;
+          color: #f7941d;
+        }
+      }
+    }
+  }
+  .discount-label-content{
+    display:  none;
+  }
+  .gb-banggiadangtin-vnwork-dangtueyncoban-small{
+    .row{
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    h5{
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+    .gb-banggiadangtin-vnwork-dangtueyncoban-content{
+      h6{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 24px;
+      }
+    }
+    .gb-banggiadangtin-vnwork-dangtueyncoban-chuongtrinhgiamgia{
+      .discount-label{
+
+      }
+      table{
+        width: 100%;
+      }
+    }
+    .gb-banggiadangtin-vnwork-price{
+      font-weight: 600;
+    }
+    .gb-banggiadangtin-vnwork-btn{
+      .btn-themmoi{
+        background:  transparent;
+        border: 1px solid #f7941d;
+        color: #f7941d;
+      }
+    }
+  }
+}

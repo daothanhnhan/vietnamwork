@@ -1,0 +1,308 @@
+.gb-tinnongtrongngay_vaxin{
+  .gb-tinnongtrongngay_vaxin-big{
+    position: relative;
+    &:after{
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: transparent;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    }
+    @media screen and (max-width: 991px) {
+      margin-bottom: 30px;
+    }
+    .item-big_vaxin-img{
+      img{
+        width: 100%;
+        height: 527px;
+        @media screen and (max-width: 991px){
+          height: auto;
+        }
+      }
+    }
+    .item-big_vaxin-text{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 15px;
+      z-index: 999;
+      h3{
+        a{
+          display: block;
+          font-size: 13px;
+          line-height: 20px;
+          color: #fff;
+          font-weight: 600;
+          position: relative;
+          text-transform: uppercase;
+        }
+      }
+      .item-time_vaxin{
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffba0e;
+        font-weight: bold;
+        position: relative;
+        padding-top: 10px;
+      }
+      p{
+        font-size: 14px;
+        line-height: 25px;
+        color: #777777;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+      }
+      .itemxemthem_vaxin{
+        display:  inline-block;
+        padding: 10px 20px;
+        color: $color-main-ruouvang;
+        background: $color-main-ruouvang;
+        margin-top: 20px;
+        border: 1px solid $color-main-ruouvang;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform:  uppercase;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main-ruouvang;
+          background: $color-main-ruouvang;
+          border-color: $color-main-ruouvang;
+        }
+      }
+    }
+  }
+  .gb-tinnongtrongngay_vaxin-small{
+    position: relative;
+    margin-bottom: 30px;
+    &:after{
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    }
+    @media screen and (max-width: 991px) {
+      margin-bottom: 30px;
+    }
+    .item-big_vaxin-img{
+      img{
+        width: 100%;
+        height: 249px;
+      }
+    }
+    .item-big_vaxin-text{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 15px;
+      z-index: 999;
+      h3{
+        a{
+          display: block;
+          font-size: 13px;
+          line-height: 20px;
+          color: #fff;
+          font-weight: 600;
+          position: relative;
+          text-transform: uppercase;
+        }
+      }
+      .item-time_vaxin{
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffba0e;
+        font-weight: bold;
+        position: relative;
+        padding-top: 10px;
+      }
+      p{
+        font-size: 14px;
+        line-height: 25px;
+        color: #777777;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+      }
+      .itemxemthem_vaxin{
+        display:  inline-block;
+        padding: 10px 20px;
+        color: $color-main-ruouvang;
+        background: $color-main-ruouvang;
+        margin-top: 20px;
+        border: 1px solid $color-main-ruouvang;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform:  uppercase;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main-ruouvang;
+          background: $color-main-ruouvang;
+          border-color: $color-main-ruouvang;
+        }
+      }
+    }
+  }
+}
+.gb-newscategory-vaxin{
+  padding:  50px 0;
+  .gb-newscategory-vaxin-item{
+    margin-bottom: 30px;
+    .gb-newscategory-vaxin-title{
+      margin-bottom: 30px;
+      border-bottom: 3px solid $color-main-ruouvang;
+      h2{
+        a{
+          display: block;
+          color: #333;
+          font-size: 20px;
+          font-weight: 600;
+          text-transform:  uppercase;
+        }
+      }
+    }
+    .gb-newscategory-vaxin-big{
+      margin-bottom: 30px;
+      .itemimg-newscategory-vaxin{
+        height: 273px;
+        overflow: hidden;
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+      .itemtext-newscategory-vaxin{
+        padding-top: 15px;
+        h3{
+          font-size: 1.125rem;
+          font-weight: 500;
+          line-height: 1.4;
+          height: 2.5rem;
+          margin-bottom: 10px;
+          overflow:  hidden;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          a{
+            display: block;
+            font-size: 20px;
+            line-height: 20px;
+            color: #000;
+            font-weight: 500;
+            position: relative;
+          }
+        }
+        .item-time_vaxin{
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 1.4;
+          display: block;
+          color: #999999;
+          margin: 0 0 5px;
+          padding: 0 0 5px;
+          border-bottom: 1px solid #e6e6e6;
+        }
+        p{
+          font-size: 14px;
+          line-height: 25px;
+          color: #777777;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 3;
+          overflow: hidden;
+        }
+        .itemxemthem_vaxin{
+          display:  inline-block;
+          padding: 10px 20px;
+          color: $color-main-ruouvang;
+          background: $color-main-ruouvang;
+          margin-top: 20px;
+          border: 1px solid $color-main-ruouvang;
+          font-weight: 600;
+          font-size: 14px;
+          text-transform:  uppercase;
+          transition:  all 0.5s;
+          &:hover{
+            color: $color-main-ruouvang;
+            background: $color-main-ruouvang;
+            border-color: $color-main-ruouvang;
+          }
+        }
+      }
+    }
+    .gb-newscategory-vaxin-small{
+      ul{
+        li{
+          margin-bottom: 10px;
+          &:last-child{
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border-bottom:  none;
+          }
+          .item_tintucslideshow_vaxin{
+            display: flex;
+            .item-img_vaxin{
+              width: 25%;
+              float: left;
+              img{
+                width: 100%;
+                height: auto;
+              }
+            }
+            .item-text_vaxin{
+              width: 75%;
+              float: left;
+              padding-left: 15px;
+              h3{
+                font-weight: 500;
+                line-height: 1.4;
+                height: 2.5rem;
+                margin-bottom: 10px;
+                overflow:  hidden;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                a{
+                  display: block;
+                  font-size: 15px;
+                  line-height: 20px;
+                  color: #000;
+                  font-weight: 500;
+                  position: relative;
+                }
+              }
+              .item-time_vaxin{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 1.4;
+                display: block;
+                color: #999999;
+                margin: 0 0 5px;
+                padding: 0 0 5px;
+                border-bottom: 1px solid #e6e6e6;
+              }
+              p{
+                font-size: 14px;
+                line-height: 25px;
+                color: #777777;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.price-khuvuc-ngaydang{
+  li{
+    display: inline-block;
+    margin: 10px 0;
+    color: #7a7a7a;
+    font-size: 14px;
+    border-right: 1px solid #7a7a7a;
+    padding: 0 10px;
+    &:first-child{
+      padding-left: 0;
+    }
+    &:last-child{
+      border-right: none;
+    }
+    strong{
+      font-weight:  bold;
+    }
+    &.prices_ruouvang{
+      strong{
+        color: #f7941d;
+      }
+    }
+  }
+}

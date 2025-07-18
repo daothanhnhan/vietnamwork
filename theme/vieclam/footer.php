@@ -1,0 +1,2 @@
+<!--HOTLINE TƯ VẤN DÀNH CHO NHÀ TUYỂN DỤNG-->
+<?php include DIR_FOOTER."MS_FOOTER_VIECLAM_0001.php";?>

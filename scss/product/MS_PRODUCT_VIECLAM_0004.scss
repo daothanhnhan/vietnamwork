@@ -1,0 +1,283 @@
+.gb-chitiet-vieclam{
+  padding-bottom: 50px;
+  .page-background{
+    background-image: linear-gradient(-180deg,#2DCEFF 2%,#00B9F2 100%);
+    height: 160px;
+  }
+  .gb-chitiet-vieclam-title{
+    background: #fff;
+    padding:  15px 30px;
+    margin-top: -70px;
+    .gb-chitiet-vieclam-img{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .gb-chitiet-vieclam-noidung{
+      h1{
+        font-weight: 600;
+        font-size: 20px;
+        text-align: left;
+        color: #000;
+      }
+      h4{
+        font-size: 14px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        color: #7a7a7a;
+        margin: 10px 0;
+      }
+      ul{
+        li{
+          font-size: 14px;
+          color: #000;
+          line-height: 24px;
+          strong {
+            font-weight: bold;
+          }
+          .prices_ruouvang{
+            display: inline-block;
+            .prices_ruouvang-old{
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+    .gb-chitiet-vieclam-tag{
+      .track-event-nopdon{
+        margin-bottom: 5px;
+        margin-top: 4px;
+        font-size: 18px;
+        padding: 11px 0;
+        font-weight: 500;
+        color: #fff;
+        background-color: #f7941d;
+        border-color: #f28809;
+        text-shadow: none;
+      }
+      .track-event-luuvieclam{
+        margin-bottom: 5px;
+        margin-top: 4px;
+        font-size: 18px;
+        padding: 11px 0;
+        font-weight: 500;
+        color: #f7941d;
+        border:1px solid #f7941d;
+        background:  transparent;
+        text-shadow: none;
+      }
+    }
+  }
+  .gb-chitite-vieclam-tab{
+    .panel-default>.panel-heading{
+      padding:  0;
+      border:  none;
+    }
+    .nav-tabs>li>a{
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 17px;
+      color: #424242;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+      border:  none;
+      font-size: 13px;
+      border-bottom: 3px solid #686868;
+      font-weight: 600;
+      background-color: transparent;
+    }
+  }
+  .panel-body{
+    padding: 30px 15px;
+  }
+  /*THÔNG TIN*/
+  .gb-chitiet-vnwork-thongtin{
+    .mobile-box{
+      .box-summary{
+        border: 1px solid rgba(0,185,242,.5);
+        padding: 23px;
+        background-color: #f7fdff;
+        border-radius: 3px;
+        .summary-item{
+          padding: 12px 0;
+          border-bottom: 1px solid rgba(206,211,213,.5);
+        }
+        .summary-content{
+          .content-label{
+            text-transform: uppercase;
+            color: #949697;
+            display: block;
+            font-weight: 300;
+            font-size: 13px;
+          }
+          .content{
+            font-weight: 300;
+            font-size: 14px;
+            padding: 0 0 15px;
+            a{
+              font-weight: 300;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .box-loving-jobs{
+        margin-top: 20px;
+        background-color: transparent;
+        border: 1px solid #EEE;
+        .box-loving-jobs__header{
+          background-color: #F8F8F8;
+          border-bottom: 1px solid #EEE;
+          height: 45px;
+          color: #555;
+          padding: 11px 10px 10px 21px;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 24px;
+          text-align: left;
+        }
+        .page-job-detail__loving-jobs{
+          a{
+            display: flex;
+            padding: 10px ;
+            .logo-box{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100%;
+              min-height: 80%;
+              min-width: 86%;
+              .logo{
+                margin: 0 auto;
+                max-height: 43px;
+                height: 50px;
+              }
+            }
+            .title{
+              font-weight: 500;
+              font-size: 16px;
+              display: block;
+              color: #555;
+              transition: color .3s;
+            }
+            .company{
+              font-weight: 400;
+              font-size: 13px;
+              color: #999;
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .gb-chitiet-vieclam-left{
+    .heading-title-vieclam{
+      position: relative;
+      font-weight: 600;
+      border-bottom: 2px solid #f7f7f7;
+      font-size: 15px;
+      padding-bottom: 9px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      &:before{
+        background: #0091ce none repeat scroll 0 0;
+        border-radius: 12px;
+        content: "";
+        height: 2px;
+        left: 0;
+        position: absolute;
+        top: 31px;
+        width: 100px;
+      }
+    }
+    ul{
+      li{
+        font-size: 14px;
+        color: #000;
+        line-height: 30px;
+        strong {
+          font-weight: bold;
+        }
+        .prices_ruouvang{
+          display: inline-block;
+          .prices_ruouvang-old{
+            display: inline-block;
+          }
+        }
+      }
+    }
+    p{
+      line-height: 24px;
+      font-weight: 400;
+      font-size: 14px;
+      color: #353535;
+    }
+    .gb-chitiet-vieclam-left-mota{
+      margin-bottom: 30px;
+    }
+    .gb-chitiet-vieclam-left-info{
+      margin-bottom: 30px;
+    }
+  }
+  /*GIỚI THIỆU CÔNG TY*/
+  .gb-gioithieu-congty-vnwork{
+    .gb-gioithieu-congty-vnwork-left{
+      p{
+        line-height: 24px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #353535;
+      }
+    }
+    .gb-gioithieu-congty-vnwork-right{
+      .box-summary{
+        border: 1px solid rgba(0,185,242,.5);
+        padding: 23px;
+        background-color: #f7fdff;
+        border-radius: 3px;
+        .summary-item{
+          padding: 12px 0;
+          border-bottom: 1px solid rgba(206,211,213,.5);
+        }
+        .summary-content{
+          .content-label{
+            text-transform: uppercase;
+            color: #949697;
+            display: block;
+            font-weight: 300;
+            font-size: 13px;
+          }
+          .content{
+            font-weight: 300;
+            font-size: 14px;
+            padding: 0 0 15px;
+            a{
+              font-weight: 300;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  /*VIÊC LÀM KHÁC TỪ CÔNGTY*/
+  .gb-vieclamkhactucongty{
+    .gb-vieclamkhactucongty-item{
+      border-top: 1px solid #eef1f2;
+      padding: 13px 0;
+      h3{
+        a{
+          display:  block;
+          font-size: 16px;
+          font-weight: 500;
+          color: #555;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.gb-header-ruouvang{
+  background:  #fff;
+  .gb-header-between_ruouvang-between{
+    @media screen and (max-width: 767px) {
+      display:  none;
+    }
+  }
+  .gb-header-search_ruouvang{
+    @media screen and (max-width: 991px) {
+      margin: 15px 0;
+    }
+  }
+}
+.gb-top-header_ruouvang{
+  background: #f1f1f1;
+  &-left{
+    @media screen and (max-width: 767px) {
+      display:  none;
+    }
+    ul{
+      li{
+        display:  inline-block;
+        color: $color-1;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 15px;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main1-ruouvang;
+        }
+        i{
+          margin-right: 5px;
+        }
+        @media screen and (max-width: 991px){
+          font-size: 11px;
+          padding: 15px 5px;
+        }
+      }
+    }
+  }
+  &-right{
+    text-align: right;
+    ul{
+      li{
+        display:  inline-block;
+        a{
+          display: block;
+          color: $color-1;
+          font-weight: 700;
+          font-size: 12px;
+          text-transform: uppercase;
+          padding: 15px;
+          transition:  all 0.5s;
+          &:hover{
+            color: $color-main1-ruouvang;
+          }
+          i{
+            margin-right: 5px;
+          }
+          @media screen and (max-width: 991px){
+            font-size: 11px;
+            padding: 15px 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.gb-header-between_ruouvang{
+  a{
+    display:  block;
+    img{
+      width: 100%;
+      height:  auto;
+      @media screen and (max-width: 991px) {
+        width: 200px;
+      }
+    }
+  }
+}
+.gb-header-between_ruouvang-right{
+  padding-top: 13px;
+  text-align: center;
+  ul{
+    li{
+      display:  inline-block;
+      border-right:  2px dotted $color-main1-ruouvang;
+      &:last-child{
+        border-right: none;
+      }
+    }
+  }
+}
+.gb-header-login-logout{
+  text-align:  right;
+  ul{
+    display:  flex;
+    float: right;
+    li{
+      float: left;
+      a{
+        display: block;
+        color: #888;
+        line-height: 30px;
+        font-size: 14px;
+        padding: 5px 15px;
+      }
+    }
+  }
+  .horizontal-navbar__employer-site{
+    background: #00648f;
+    a{
+      color:  #fff;
+      text-align:  left;
+    }
+  }
+}

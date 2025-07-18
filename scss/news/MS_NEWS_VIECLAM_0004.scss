@@ -1,0 +1,84 @@
+.gb-nhatuyendungnoibat-home-vnwork{
+  h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .gb-nhatuyendungnoibat-home-vnwork-item{
+    .gb-nhatuyendungnoibat-vnwork-bg{
+      background-size: cover;
+      background-position:  center center;
+      height: 300px;
+      width: 100%;
+    }
+    .info-container-vieclam-bg{
+      background: #fff;
+      padding: 25px 40px 30px;
+      position: relative;
+      bottom: 0;
+      border: 1px solid rgba(230,230,230,.8);
+      height: 270px;
+      box-shadow: 1px 1px 1px #f1f1f1;
+      width: 100%;
+      margin-top: -90px;
+    }
+    .info-container-vieclam{
+      .logo-vieclam{
+
+      }
+      .company-info-vieclam{
+        h3{
+          text-align: left;
+          a{
+            font-size: 25px;
+            font-weight: 400;
+            margin-bottom: 2px;
+            margin-top: 0;
+            color: #555;
+            transition: color .3s;
+            display: inline-block;
+            text-align: left;
+          }
+        }
+        .text-info-vieclam{
+          font-size: 15px;
+          font-weight: 100;
+          color: #00b9f2;
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          max-width: 100%;
+          vertical-align: middle;
+          font-style: italic;
+        }
+        .description-vieclam{
+          font-size: 15px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          color: #888;
+        }
+        .btn-xemthem-vieclam{
+          text-align:  right;
+          a{
+            display: inline-block;
+            color: #f7941d;
+            background: #fff;
+            border: 1px solid #f7941d;
+            padding: 10px 20px;
+            font-size: 16px;
+            line-height: 1.33;
+            transition:  all 0.5s;
+            &:hover{
+              background: #f7941d;
+              color:  #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

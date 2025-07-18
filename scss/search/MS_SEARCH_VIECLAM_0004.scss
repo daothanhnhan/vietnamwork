@@ -1,0 +1,31 @@
+.gb-search-filter-vieclam{
+  .gb-search-filter-vieclam-bg{
+    background: rgba(0,0,0,.65);
+    padding: 30px 15px;
+  }
+  h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #fff;
+    font-weight: 400;
+  }
+  .form-group{
+
+  }
+  .form-control{
+    border-radius: 0;
+  }
+  .btn-timkiem-vieclam{
+    background:  #f7941d;
+    width: 100%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+  }
+  .col-md-2{
+    @media screen and (min-width: 992px){
+      width: 14.2%;
+    }
+  }
+}

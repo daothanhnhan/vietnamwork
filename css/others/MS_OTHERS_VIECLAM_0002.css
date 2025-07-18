@@ -1,0 +1,26 @@
+.gb-wowcv-vnwork .gb-wowcv-vnwork-dark-box {
+  background: url("../images/header_banner_v2.jpg") no-repeat center center;
+  height: 578px;
+  background-size: cover; }
+  .gb-wowcv-vnwork .gb-wowcv-vnwork-dark-box .banner-title {
+    text-align: center;
+    line-height: 63px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 210px;
+    margin-top: 0; }
+  .gb-wowcv-vnwork .gb-wowcv-vnwork-dark-box .cta-building {
+    font-size: 24px;
+    background-color: #f2b53e;
+    color: #fff;
+    padding: 15px 0px;
+    margin-top: 80px;
+    font-weight: 600;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 240px;
+    text-transform: none; }
